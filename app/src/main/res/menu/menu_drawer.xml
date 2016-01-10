@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group_01"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_notice"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:numericShortcut="0"
+            android:title="@string/menu_notice" />
+        <item
+            android:id="@+id/navigation_timeline"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:numericShortcut="1"
+            android:title="@string/menu_timeline" />
+        <item
+            android:id="@+id/navigation_schedule"
+            android:icon="@drawable/ic_schedule_black_24dp"
+            android:numericShortcut="2"
+            android:title="@string/menu_schedule" />
+        <item
+            android:id="@+id/navigation_emergency"
+            android:icon="@drawable/ic_warning_black_24dp"
+            android:numericShortcut="3"
+            android:title="@string/menu_emergency" />
+    </group>
+
+    <group
+        android:id="@+id/group_02"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_library"
+            android:icon="@drawable/ic_save_black_24dp"
+            android:numericShortcut="4"
+            android:title="@string/menu_library" />
+    </group>
+
+    <group
+        android:id="@+id/group_03"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_team_1"
+            android:icon="@drawable/ic_brush_black_24dp"
+            android:numericShortcut="5"
+            android:title="@string/menu_team01" />
+        <item
+            android:id="@+id/navigation_team_2"
+            android:icon="@drawable/ic_poll_black_24dp"
+            android:numericShortcut="6"
+            android:title="@string/menu_team02" />
+
+        <item
+            android:id="@+id/navigation_team_3"
+            android:icon="@drawable/ic_developer_mode_black_24dp"
+            android:numericShortcut="7"
+            android:title="@string/menu_team03" />
+
+        <item
+            android:id="@+id/navigation_team_4"
+            android:icon="@drawable/ic_phone_android_black_24dp"
+            android:numericShortcut="8"
+            android:title="@string/menu_team04" />
+    </group>
+</menu>

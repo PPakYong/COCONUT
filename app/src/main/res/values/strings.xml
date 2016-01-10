@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">코코넛</string>
+
+    <string name="menu_notice">공지사항</string>
+    <string name="menu_timeline">타임라인</string>
+    <string name="menu_schedule">부서원 일정</string>
+    <string name="menu_emergency">장애일지</string>
+
+    <string name="menu_library">후후 자료실</string>
+
+    <string name="menu_team01">기획<![CDATA[/]]>디자인팀</string>
+    <string name="menu_team02">마케팅팀</string>
+    <string name="menu_team03">인프라팀</string>
+    <string name="menu_team04">플랫폼개발팀</string>
+
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
